@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SkadTechDomain
 {
-    public class Class1
+    class ItemZS
     {
     }
 }
