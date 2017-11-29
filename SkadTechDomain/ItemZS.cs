@@ -14,6 +14,6 @@ namespace SkadTechDomain
         public string Type{get;set;}
         public string Artikul{get;set;}
         public string Esn{get;set;}
-
+          ////
     }
 }
