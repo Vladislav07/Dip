@@ -8,11 +8,18 @@ namespace SkadTechDomain
 {
  public   class PidBk
     {
-     public string FeaturesBk { get; set; }
+        public PidBk()
+        {
+            ComponentKit = new List<Component>();
+        }
+
+        public string FeaturesBk { get; set; }
      public string  PidNumber{ get; set; }
      public string InstallationSite { get; set; }
      public string Artikul { get; set; }
      public string NameProduct { get; set; }
+        List<Component> ComponentKit;
+
      
     }
 }

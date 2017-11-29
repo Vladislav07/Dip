@@ -14,7 +14,10 @@ namespace SkadTechDomain
     {
        public ComponentName NameProductComponent { get; set; }
        public string ZsNumber { get; set; }
-       List<ItemZS> ZsList = List<ItemZS>();
 
+        public Zs zspec
+        {
+            get;set;
+        }
     }
 }

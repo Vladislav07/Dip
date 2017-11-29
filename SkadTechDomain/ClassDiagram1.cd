@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SkadTechDomain.ItemZs">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAQAAAAAAAAAAAgAAAAAAQAASAAAAAAAAA=</HashCode>
+      <FileName>ItemZS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkadTechDomain.PidBk">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAGAAAAAAAAAAAAAAAgAAAAAAAAAAAQAAAAAAg=</HashCode>
+      <FileName>PidBK.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="ComponentKit" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SkadTechDomain.Component">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAIAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Component.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NameProductComponent" />
+      <Property Name="zspec" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SkadTechDomain.UserSkadTech">
+    <Position X="6.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserSkadTech.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkadTechDomain.Zs">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Zs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="ZsList" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Enum Name="SkadTechDomain.ComponentName">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAgAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Component.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
