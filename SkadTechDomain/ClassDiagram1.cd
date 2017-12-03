@@ -29,9 +29,9 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="SkadTechDomain.UserSkadTech">
-    <Position X="6.75" Y="3.25" Width="1.5" />
+    <Position X="6.5" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>QAAAABAgAAAIAAAAAAgAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
       <FileName>UserSkadTech.cs</FileName>
     </TypeIdentifier>
   </Class>
