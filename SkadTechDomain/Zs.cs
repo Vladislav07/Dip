@@ -9,7 +9,8 @@ namespace SkadTechDomain
     {
         List<ItemZs> ZsList = new List<ItemZs>();
 
-        public int Number{get;set;}
+        public int Number { get; set; }
+        ///
         
         
     }
