@@ -1,0 +1,74 @@
+﻿@model SkadTechDomain.ItemZs
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <h4>ItemZs</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.IdZs)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.IdZs)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.SubSystem)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.SubSystem)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.ItemZsName)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.ItemZsName)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Type)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Type)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Artikul)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Artikul)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Esn)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Esn)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>
