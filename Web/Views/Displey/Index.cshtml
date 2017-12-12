@@ -1,20 +1,11 @@
 ﻿@model SkadTechDomain.ItemZs
 
 @{
-    Layout = null;
+    ViewBag.Title = "MyElement";
+    Layout ="~/Views/Shared/_LayoutPageSkadTech.cshtml";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
-<body>
-    <div>
-        <h4>ItemZs</h4>
-        <hr />
+       <div>
         <dl class="dl-horizontal">
             <dt>
                 @Html.DisplayNameFor(model => model.IdZs)
@@ -70,5 +61,4 @@
         @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
         @Html.ActionLink("Back to List", "Index")
     </p>
-</body>
-</html>
+
